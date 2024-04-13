@@ -1,0 +1,131 @@
+.profileIcon {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #ffa500;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 20px 70px;
+}
+
+.profileIcon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+i {
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+  color: #ffa500;
+  margin-right: 30px;
+}
+
+.rightContent {
+  width: 100%;
+  height: 766px;
+  margin-top: 20px;
+  font-size: 1.25rem;
+  background: #f6f6f6;
+  border-radius: 10px 0 0 10px;
+  padding-inline-start: 23rem;
+  padding-block-start: 5rem;
+  color: black;
+}
+
+nav {
+  height: 803px;
+  background: white;
+  position: absolute;
+  top: 14%;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+}
+
+.nav-list li {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  margin-inline: 1rem 0;
+  box-shadow: 2px 0 0 #f6f6f6;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.nav-list li.active {
+  background: #f6f6f6;
+  position: relative;
+  z-index: 100;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.nav-list li.active::before,
+.nav-list li.active::after {
+  --border-radius: 1rem;
+  content: "";
+  position: absolute;
+  width: var(--border-radius);
+  height: var(--border-radius);
+  right: 0rem;
+  background: white;
+}
+
+.nav-list li.active::before {
+  border-radius: 0 0 var(--border-radius);
+  top: calc(var(--border-radius) * -1);
+  box-shadow: 5px 5px 0 5px #f6f6f6;
+}
+
+.nav-list li.active::after {
+  border-radius: 0 var(--border-radius) 0 0;
+  bottom: calc(var(--border-radius) * -1);
+  box-shadow: 5px -5px 0 5px #f6f6f6;
+}
+
+@media (min-width: 768px) {
+  .profileIcon {
+    width: 150px;
+    height: 150px;
+    margin: 20px 0 20px 70px; /* Original margin */
+  }
+
+  i {
+    font-size: 30px; /* Original icon size */
+    height: 30px;
+    width: 30px;
+  }
+
+  .rightContent {
+    height: 766px;
+    font-size: 1.25rem; /* Original font size */
+    padding-inline-start: 23rem;
+    padding-block-start: 5rem;
+  }
+
+  nav {
+    position: absolute; /* Restore absolute positioning */
+    top: 14%;
+    left: 0;
+    height: 803px; /* Fixed height */
+    width: auto;
+  }
+
+  .nav-list li {
+    padding: 1rem 2rem; /* Original padding */
+    font-size: 1rem;
+  }
+}
