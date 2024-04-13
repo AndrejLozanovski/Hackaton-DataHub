@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer bg-black">
+    <footer className="footer bg-footer">
       <div className="subscription-section">
         <h4 className="text-light text-center">Претплати се на нашиот билтен</h4>
         <p className="text-light text-center">
