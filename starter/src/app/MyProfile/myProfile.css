@@ -16,7 +16,7 @@
   object-fit: cover;
 }
 
-i {
+.profileIcons {
   font-size: 30px;
   height: 30px;
   width: 30px;
@@ -26,13 +26,12 @@ i {
 
 .rightContent {
   width: 100%;
-  height: 766px;
+
   margin-top: 20px;
   font-size: 1.25rem;
   background: #f6f6f6;
   border-radius: 10px 0 0 10px;
-  padding-inline-start: 23rem;
-  padding-block-start: 5rem;
+  padding: 20px;
   color: black;
 }
 
@@ -128,4 +127,29 @@ nav {
     padding: 1rem 2rem; /* Original padding */
     font-size: 1rem;
   }
+}
+
+/* NotificationCard */
+
+.customFont {
+  text-transform: uppercase;
+  font-size: 8px;
+}
+
+.notificationImg {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.priceFont {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+}
+
+.bottomRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 }
