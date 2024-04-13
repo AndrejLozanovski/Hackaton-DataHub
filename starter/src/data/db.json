@@ -1,623 +1,5 @@
 {
   "categories": {
-    "obuvki": {
-      "id": "category-1",
-      "name": "Обувки",
-      "subcategories": [
-        {
-          "id": "subcategory-mashki-obuvki",
-          "name": "Машки обувки",
-          "subcategories": [
-            {
-              "id": "mashki-obuvki-1",
-              "name": "Машки чевли",
-              "products": [
-                {
-                  "id": "product-1",
-                  "name": "Некој чевли",
-                  "price": 1000,
-                  "brand": "Бренд 1",
-                  "discount": 0.15,
-                  "rating": 4.8,
-                  "image": "path/to/image1.jpg",
-                  "stock": 20,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-2",
-                  "name": "Некој чевли",
-                  "price": 1000,
-                  "brand": "Бренд 1",
-                  "discount": 0.15,
-                  "rating": 4.8,
-                  "image": "path/to/image1.jpg",
-                  "stock": 20,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-3",
-                  "name": "Некој чевли",
-                  "price": 1000,
-                  "brand": "Бренд 1",
-                  "discount": 0.15,
-                  "rating": 4.8,
-                  "image": "path/to/image1.jpg",
-                  "stock": 20,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "mashki-obuvki-2",
-              "name": "Машки патики",
-              "products": [
-                {
-                  "id": "product-1",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-2",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-3",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "mashki-obuvki-3",
-              "name": "Машки чизми",
-              "products": [
-                {
-                  "id": "product-1",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-2",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-3",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "subcategory-zhenski-obuvki",
-          "name": "Женски обувки",
-          "subcategories": [
-            {
-              "id": "zhenski-obuvki-1",
-              "name": "Женски чевли",
-              "products": [
-                {
-                  "id": "product-1",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-2",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-3",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "zhenski-obuvki-2",
-              "name": "Женски патики",
-              "products": [
-                {
-                  "id": "product-1",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-2",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-3",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "zhenski-obuvki-3",
-              "name": "Женски чизми",
-              "products": [
-                {
-                  "id": "product-1",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-2",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-3",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "subcategory-kids-shoes",
-          "name": "Детски обувки",
-          "subcategories": [
-            {
-              "id": "kids-shoes-1",
-              "name": "Детски чевли",
-              "products": [
-                {
-                  "id": "product-1",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-2",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-3",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "kids-shoes-2",
-              "name": "Детски патики",
-              "products": [
-                {
-                  "id": "product-1",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-2",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-3",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "kids-shoes-3",
-              "name": "Детски чизми",
-              "products": [
-                {
-                  "id": "product-1",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-2",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-3",
-                  "name": "Некој чизми",
-                  "price": 1500,
-                  "brand": "Бренд 3",
-                  "discount": 0.2,
-                  "rating": 4.7,
-                  "image": "path/to/image3.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     "bela_tehnika": {
       "id": "category-2",
       "name": "Бела техника",
@@ -670,26 +52,6 @@
                     "images/productpageItem/image4.png",
                     "images/productpageItem/image5.png"
                   ]
-                },
-                {
-                  "id": "product-3",
-                  "name": "Beko frizider 3",
-                  "price": 700,
-                  "brand": "Beko",
-                  "discount": 0,
-                  "rating": 4.2,
-                  "image": "path/to/image3.jpg",
-                  "stock": 8,
-                  "markets": ["TehnoMarket"],
-                  "description": "Description of the product goes here.",
-                  "color": "Stainless Steel",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
                 }
               ]
             },
@@ -729,26 +91,6 @@
                   "markets": ["Market2", "Market3"],
                   "description": "Description of the product goes here.",
                   "color": "Black",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "product-3",
-                  "name": "Beko frizider 3",
-                  "price": 700,
-                  "brand": "Beko",
-                  "discount": 0,
-                  "rating": 4.2,
-                  "image": "path/to/image3.jpg",
-                  "stock": 8,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Description of the product goes here.",
-                  "color": "Stainless Steel",
                   "images": [
                     "images/productpageItem/image1.png",
                     "images/productpageItem/image2.png",
@@ -1378,26 +720,6 @@
               "id": "klima-uredi-3",
               "name": "Мобилни клима уреди",
               "products": [
-                {
-                  "id": "klima-uredi-3-product-1",
-                  "name": "Пример мобилен клима уред",
-                  "price": 35000,
-                  "brand": "Мобил Клима",
-                  "discount": 0.2,
-                  "rating": 4.6,
-                  "image": "path/to/mobile-ac.jpg",
-                  "stock": 10,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
                 {
                   "id": "klima-uredi-3-product-1",
                   "name": "Пример мобилен клима уред",
@@ -2352,1498 +1674,221 @@
           ]
         }
       ]
-    },
-    "igri_i_konzoli": {
-      "id": "category-3",
-      "name": "Игри и конзоли",
-      "subcategories": [
-        {
-          "id": "subcategory-konzoli",
-          "name": "Конзоли",
-          "subcategories": [
-            {
-              "id": "konzola-1",
-              "name": "PlayStation 5",
-              "products": [
-                {
-                  "id": "ps5-product-1",
-                  "name": "Примерен производ",
-                  "price": 1200,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.12,
-                  "rating": 4.5,
-                  "image": "path/to/image.jpg",
-                  "stock": 15,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "konzola-2",
-              "name": "Xbox Series X",
-              "products": [
-                {
-                  "id": "xbox-product-1",
-                  "name": "Примерен производ",
-                  "price": 1200,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.12,
-                  "rating": 4.5,
-                  "image": "path/to/image.jpg",
-                  "stock": 15,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "konzola-3",
-              "name": "Nintendo Switch",
-              "products": [
-                {
-                  "id": "switch-product-1",
-                  "name": "Примерен производ",
-                  "price": 1200,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.12,
-                  "rating": 4.5,
-                  "image": "path/to/image.jpg",
-                  "stock": 15,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "subcategory-igri",
-          "name": "Игри",
-          "subcategories": [
-            {
-              "id": "igra-1",
-              "name": "FIFA 22",
-              "products": [
-                {
-                  "id": "fifa22-product-1",
-                  "name": "Примерен производ",
-                  "price": 1200,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.12,
-                  "rating": 4.5,
-                  "image": "path/to/image.jpg",
-                  "stock": 15,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "igra-2",
-              "name": "Call of Duty: Warzone",
-              "products": [
-                {
-                  "id": "warzone-product-1",
-                  "name": "Примерен производ",
-                  "price": 1200,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.12,
-                  "rating": 4.5,
-                  "image": "path/to/image.jpg",
-                  "stock": 15,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "igra-3",
-              "name": "The Legend of Zelda: Breath of the Wild",
-              "products": [
-                {
-                  "id": "zelda-product-1",
-                  "name": "Примерен производ",
-                  "price": 1200,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.12,
-                  "rating": 4.5,
-                  "image": "path/to/image.jpg",
-                  "stock": 15,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "subcategory-dodatoci",
-          "name": "Додатоци за конзоли",
-          "subcategories": [
-            {
-              "id": "dodatok-1",
-              "name": "Додатоци за PlayStation 5",
-              "products": [
-                {
-                  "id": "ps5-accessory-1",
-                  "name": "Примерен производ",
-                  "price": 1200,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.12,
-                  "rating": 4.5,
-                  "image": "path/to/image.jpg",
-                  "stock": 15,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "dodatok-2",
-              "name": "Додатоци за Xbox Series X",
-              "products": [
-                {
-                  "id": "xbox-accessory-1",
-                  "name": "Примерен производ",
-                  "price": 1200,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.12,
-                  "rating": 4.5,
-                  "image": "path/to/image.jpg",
-                  "stock": 15,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "dodatok-3",
-              "name": "Додатоци за Nintendo Switch",
-              "products": [
-                {
-                  "id": "switch-accessory-1",
-                  "name": "Примерен производ",
-                  "price": 1200,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.12,
-                  "rating": 4.5,
-                  "image": "path/to/image.jpg",
-                  "stock": 15,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "obleka": {
-      "id": "category-4",
-      "name": "Облека",
-      "subcategories": [
-        {
-          "id": "subcategory-mazhi",
-          "name": "Мажи",
-          "subcategories": [
-            {
-              "id": "mazhi-1",
-              "name": "Маици",
-              "products": [
-                {
-                  "id": "mazhi-shirt-1",
-                  "name": "Примерна маица за мажи",
-                  "price": 25,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.1,
-                  "rating": 4.2,
-                  "image": "path/to/shirt-image.jpg",
-                  "stock": 50,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот тука.",
-                  "color": "Сина",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "mazhi-2",
-              "name": "Панталони",
-              "products": [
-                {
-                  "id": "mazhi-pants-1",
-                  "name": "Примерни панталони за мажи",
-                  "price": 40,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.15,
-                  "rating": 4.4,
-                  "image": "path/to/pants-image.jpg",
-                  "stock": 40,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот тука.",
-                  "color": "Црни",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "mazhi-3",
-              "name": "Кошули",
-              "products": [
-                {
-                  "id": "mazhi-shirt-1",
-                  "name": "Примерна кошула за мажи",
-                  "price": 30,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.12,
-                  "rating": 4.3,
-                  "image": "path/to/shirt-image.jpg",
-                  "stock": 30,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот тука.",
-                  "color": "Бела",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "subcategory-zhenski",
-          "name": "Женски",
-          "subcategories": [
-            {
-              "id": "zhenski-1",
-              "name": "Блузи",
-              "products": [
-                {
-                  "id": "zhenski-blouse-1",
-                  "name": "Примерна блуза за жени",
-                  "price": 35,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.1,
-                  "rating": 4.5,
-                  "image": "path/to/blouse-image.jpg",
-                  "stock": 45,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот тука.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "zhenski-2",
-              "name": "Панталони",
-              "products": [
-                {
-                  "id": "zhenski-pants-1",
-                  "name": "Примерни панталони за жени",
-                  "price": 45,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.2,
-                  "rating": 4.6,
-                  "image": "path/to/pants-image.jpg",
-                  "stock": 55,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот тука.",
-                  "color": "Црни",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "zhenski-3",
-              "name": "Сукњи",
-              "products": [
-                {
-                  "id": "zhenski-skirt-1",
-                  "name": "Примерна сукња за жени",
-                  "price": 40,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.15,
-                  "rating": 4.4,
-                  "image": "path/to/skirt-image.jpg",
-                  "stock": 50,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот тука.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "subcategory-deca",
-          "name": "Деца",
-          "subcategories": [
-            {
-              "id": "deca-1",
-              "name": "Маици",
-              "products": [
-                {
-                  "id": "kids-shirt-1",
-                  "name": "Примерна маица за деца",
-                  "price": 20,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.1,
-                  "rating": 4.2,
-                  "image": "path/to/kids-shirt-image.jpg",
-                  "stock": 60,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот тука.",
-                  "color": "Сина",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "deca-2",
-              "name": "Панталони",
-              "products": [
-                {
-                  "id": "kids-pants-1",
-                  "name": "Примерни панталони за деца",
-                  "price": 30,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.12,
-                  "rating": 4.3,
-                  "image": "path/to/kids-pants-image.jpg",
-                  "stock": 70,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот тука.",
-                  "color": "Црни",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "deca-3",
-              "name": "Oбувки",
-              "products": [
-                {
-                  "id": "kids-shoes-1",
-                  "name": "Примерни обувки за деца",
-                  "price": 25,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.1,
-                  "rating": 4.2,
-                  "image": "path/to/kids-shoes-image.jpg",
-                  "stock": 50,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот тука.",
-                  "color": "Црвени",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "deca": {
-      "id": "category-5",
-      "name": "Деца",
-      "subcategories": [
-        {
-          "id": "subcategory-bebinja",
-          "name": "Бебиња",
-          "subcategories": [
-            {
-              "id": "bebinja-1",
-              "name": "Кашички",
-              "products": [
-                {
-                  "id": "bebinja-1-product-1",
-                  "name": "Примерна кашичка",
-                  "price": 15,
-                  "brand": "Беби Бренд",
-                  "discount": 0.1,
-                  "rating": 4.7,
-                  "image": "path/to/kashichka.jpg",
-                  "stock": 20,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Сина",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "bebinja-1-product-2",
-                  "name": "Удобна кашичка",
-                  "price": 12,
-                  "brand": "Детски Свет",
-                  "discount": 0.05,
-                  "rating": 4.6,
-                  "image": "path/to/udobna-kashichka.jpg",
-                  "stock": 25,
-                  "markets": ["Market2", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Розева",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "bebinja-2",
-              "name": "Пелени",
-              "products": [
-                {
-                  "id": "bebinja-2-product-1",
-                  "name": "Пакет пелени",
-                  "price": 30,
-                  "brand": "Пелени Бренд",
-                  "discount": 0.2,
-                  "rating": 4.8,
-                  "image": "path/to/peleni.jpg",
-                  "stock": 50,
-                  "markets": ["Market3", "Market4"],
-                  "description": "Опис на производот овде.",
-                  "color": "Розева",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "bebinja-3",
-              "name": "Бебешки кревети",
-              "products": [
-                {
-                  "id": "bebinja-3-product-1",
-                  "name": "Дрвен бебешки кревет",
-                  "price": 150,
-                  "brand": "Мебелен Кревет",
-                  "discount": 0.1,
-                  "rating": 4.9,
-                  "image": "path/to/bebeshki-krevet.jpg",
-                  "stock": 10,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Бела",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "subcategory-uchilishen-pribor",
-          "name": "Училишен прибор",
-          "subcategories": [
-            {
-              "id": "uchilishen-pribor-1",
-              "name": "Школски ранци",
-              "products": [
-                {
-                  "id": "uchilishen-pribor-1-product-1",
-                  "name": "Примерен школски ранец",
-                  "price": 40,
-                  "brand": "Ранец Бренд",
-                  "discount": 0.15,
-                  "rating": 4.5,
-                  "image": "path/to/shkolski-ranec.jpg",
-                  "stock": 30,
-                  "markets": ["Market2", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Сив",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "uchilishen-pribor-2",
-              "name": "Учебници",
-              "products": [
-                {
-                  "id": "uchilishen-pribor-2-product-1",
-                  "name": "Математика за прв разред",
-                  "price": 20,
-                  "brand": "Учебник Издавач",
-                  "discount": 0.1,
-                  "rating": 4.7,
-                  "image": "path/to/uchebnik-matematika.jpg",
-                  "stock": 40,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "subject": "Математика",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "uchilishen-pribor-3",
-              "name": "Лектири",
-              "products": [
-                {
-                  "id": "uchilishen-pribor-3-product-1",
-                  "name": "Браќата Карамазови",
-                  "price": 15,
-                  "brand": "Класични Изданија",
-                  "discount": 0.05,
-                  "rating": 4.6,
-                  "image": "path/to/lektira-brakjata-karamazovi.jpg",
-                  "stock": 20,
-                  "markets": ["Market2", "Market4"],
-                  "description": "Опис на производот овде.",
-                  "author": "Фјодор Достоевски",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "subcategory-igrachki",
-          "name": "Играчки",
-          "subcategories": [
-            {
-              "id": "igrachki-1",
-              "name": "Кукли",
-              "products": [
-                {
-                  "id": "igrachki-1-product-1",
-                  "name": "Барби кукла",
-                  "price": 25,
-                  "brand": "Мател",
-                  "discount": 0.1,
-                  "rating": 4.8,
-                  "image": "path/to/barbi-kukla.jpg",
-                  "stock": 30,
-                  "markets": ["Market3", "Market4"],
-                  "description": "Опис на производот овде.",
-                  "color": "Сив",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "igrachki-2",
-              "name": "Количиња",
-              "products": [
-                {
-                  "id": "igrachki-2-product-1",
-                  "name": "Дрвено количе",
-                  "price": 35,
-                  "brand": "Детски Играчки",
-                  "discount": 0.2,
-                  "rating": 4.9,
-                  "image": "path/to/drveno-kolichence.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвено",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "igrachki-3",
-              "name": "Плишани играчки",
-              "products": [
-                {
-                  "id": "igrachki-3-product-1",
-                  "name": "Мече со срце",
-                  "price": 15,
-                  "brand": "Плишани Креации",
-                  "discount": 0.1,
-                  "rating": 4.7,
-                  "image": "path/to/meche-so-srce.jpg",
-                  "stock": 20,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвено",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "fotografija": {
-      "id": "category-6",
-      "name": "Фотографија",
-      "subcategories": [
-        {
-          "id": "subcategory-digitalni-fotoaparati",
-          "name": "Дигитални Фотоапарати",
-          "subcategories": [
-            {
-              "id": "digitalni-fotoaparati-1",
-              "name": "DSLR Фотоапарати",
-              "products": [
-                {
-                  "id": "dslr-fotoaparati-1-product-1",
-                  "name": "Примерен DSLR Фотоапарат",
-                  "price": 500,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.1,
-                  "rating": 4.5,
-                  "image": "path/to/dslr-fotoaparat.jpg",
-                  "stock": 10,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црн",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "digitalni-fotoaparati-2",
-              "name": "Mirrorless Фотоапарати",
-              "products": [
-                {
-                  "id": "mirrorless-fotoaparati-1-product-1",
-                  "name": "Примерен Mirrorless Фотоапарат",
-                  "price": 600,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.15,
-                  "rating": 4.7,
-                  "image": "path/to/mirrorless-fotoaparat.jpg",
-                  "stock": 15,
-                  "markets": ["Market2", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Сребрен",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "digitalni-fotoaparati-3",
-              "name": "Компактни Фотоапарати",
-              "products": [
-                {
-                  "id": "kompaktni-fotoaparati-1-product-1",
-                  "name": "Примерен Компактен Фотоапарат",
-                  "price": 400,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.1,
-                  "rating": 4.6,
-                  "image": "path/to/kompakten-fotoaparat.jpg",
-                  "stock": 20,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвен",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "subcategory-kameri",
-          "name": "Камери",
-          "subcategories": [
-            {
-              "id": "kameri-1",
-              "name": "Видео Камери",
-              "products": [
-                {
-                  "id": "video-kameri-1-product-1",
-                  "name": "Примерна Видео Камера",
-                  "price": 700,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.2,
-                  "rating": 4.8,
-                  "image": "path/to/video-kamera.jpg",
-                  "stock": 8,
-                  "markets": ["Market2", "Market4"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "kameri-2",
-              "name": "Акциони Камери",
-              "products": [
-                {
-                  "id": "action-kameri-1-product-1",
-                  "name": "Примерна Акциона Камера",
-                  "price": 300,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.1,
-                  "rating": 4.5,
-                  "image": "path/to/akciona-kamera.jpg",
-                  "stock": 12,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Сина",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "kameri-3",
-              "name": "Web Камери",
-              "products": [
-                {
-                  "id": "web-kameri-1-product-1",
-                  "name": "Примерна Web Камера",
-                  "price": 50,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.05,
-                  "rating": 4.3,
-                  "image": "path/to/web-kamera.jpg",
-                  "stock": 18,
-                  "markets": ["Market2", "Market4"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "subcategory-dodatoci-i-oprema",
-          "name": "Додатоци и Опрема",
-          "subcategories": [
-            {
-              "id": "dodatoci-i-oprema-1",
-              "name": "Објективи",
-              "products": [
-                {
-                  "id": "objektivi-1-product-1",
-                  "name": "Примерен Објектив",
-                  "price": 200,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.1,
-                  "rating": 4.7,
-                  "image": "path/to/objektiv.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црн",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "dodatoci-i-oprema-2",
-              "name": "Батерии и Полначи",
-              "products": [
-                {
-                  "id": "baterii-i-polnachi-1-product-1",
-                  "name": "Примерна Батерија",
-                  "price": 30,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.05,
-                  "rating": 4.6,
-                  "image": "path/to/baterija.jpg",
-                  "stock": 30,
-                  "markets": ["Market2", "Market4"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "dodatoci-i-oprema-3",
-              "name": "Стативи",
-              "products": [
-                {
-                  "id": "stativi-1-product-1",
-                  "name": "Примерен Статив",
-                  "price": 100,
-                  "brand": "Примерен Бренд",
-                  "discount": 0.1,
-                  "rating": 4.8,
-                  "image": "path/to/stativ.jpg",
-                  "stock": 20,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Сив",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "sport": {
-      "id": "category-7",
-      "name": "Спорт",
-      "subcategories": [
-        {
-          "id": "subcategory-sportovi-na-otvoreno",
-          "name": "Спортови на отворено",
-          "subcategories": [
-            {
-              "id": "sportovi-na-otvoreno-1",
-              "name": "Фудбал",
-              "products": [
-                {
-                  "id": "fudbal-product-1",
-                  "name": "Фудбалка",
-                  "price": 20,
-                  "brand": "Фудбалско Креативно",
-                  "discount": 0.05,
-                  "rating": 4.6,
-                  "image": "path/to/fudbalka.jpg",
-                  "stock": 30,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Бела",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "fudbal-product-2",
-                  "name": "Фудбалски Дрес",
-                  "price": 50,
-                  "brand": "Спортска Компанија",
-                  "discount": 0.1,
-                  "rating": 4.7,
-                  "image": "path/to/fudbalski-dres.jpg",
-                  "stock": 15,
-                  "markets": ["Market2", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвен",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sportovi-na-otvoreno-2",
-              "name": "Кошарка",
-              "products": [
-                {
-                  "id": "kosarka-product-1",
-                  "name": "Кошаркарски Топка",
-                  "price": 25,
-                  "brand": "Спортска Марка",
-                  "discount": 0.07,
-                  "rating": 4.5,
-                  "image": "path/to/kosarkarski-topka.jpg",
-                  "stock": 20,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "kosarka-product-2",
-                  "name": "Кошаркарски Дрес",
-                  "price": 60,
-                  "brand": "Баскетбалска Компанија",
-                  "discount": 0.12,
-                  "rating": 4.8,
-                  "image": "path/to/kosarkarski-dres.jpg",
-                  "stock": 10,
-                  "markets": ["Market2", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвен",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "sportovi-na-otvoreno-3",
-              "name": "Тенис",
-              "products": [
-                {
-                  "id": "tenis-product-1",
-                  "name": "Тениска Ракета",
-                  "price": 80,
-                  "brand": "Тенисска Марка",
-                  "discount": 0.15,
-                  "rating": 4.9,
-                  "image": "path/to/teniska-raketa.jpg",
-                  "stock": 25,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Бела",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "tenis-product-2",
-                  "name": "Тениски Топчиња",
-                  "price": 30,
-                  "brand": "Тенисска Компанија",
-                  "discount": 0.1,
-                  "rating": 4.7,
-                  "image": "path/to/teniski-topcinja.jpg",
-                  "stock": 40,
-                  "markets": ["Market2", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Жолта",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "subcategory-fitness-i-trening",
-          "name": "Фитнес и Тренинг",
-          "subcategories": [
-            {
-              "id": "fitness-i-trening-1",
-              "name": "Спортска опрема",
-              "products": [
-                {
-                  "id": "sport-oprema-product-1",
-                  "name": "Тркачки шорцеви",
-                  "price": 30,
-                  "brand": "FitStyle",
-                  "discount": 0.2,
-                  "rating": 4.6,
-                  "image": "path/to/trkachki-shortsi.jpg",
-                  "stock": 50,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црн",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "sport-oprema-product-2",
-                  "name": "Тениска за трчање",
-                  "price": 25,
-                  "brand": "ActiveWear",
-                  "discount": 0,
-                  "rating": 4.8,
-                  "image": "path/to/teniska-za-trcanje.jpg",
-                  "stock": 70,
-                  "markets": ["Market2", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Плава",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "fitness-i-trening-2",
-              "name": "Материјали за вежбање",
-              "products": [
-                {
-                  "id": "vezbajni-materijali-product-1",
-                  "name": "Еластична трака за вежбање",
-                  "price": 15,
-                  "brand": "FitZone",
-                  "discount": 0.1,
-                  "rating": 4.4,
-                  "image": "path/to/elastichna-traka.jpg",
-                  "stock": 100,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Зелена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "vezbajni-materijali-product-2",
-                  "name": "Топки за вежбање",
-                  "price": 20,
-                  "brand": "SportFit",
-                  "discount": 0,
-                  "rating": 4.5,
-                  "image": "path/to/topki-za-vezbanje.jpg",
-                  "stock": 80,
-                  "markets": ["Market2", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвена",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "fitness-i-trening-3",
-              "name": "Спортски Облеки",
-              "products": [
-                {
-                  "id": "sportski-obleki-product-1",
-                  "name": "Фитнес легнување",
-                  "price": 40,
-                  "brand": "FlexWear",
-                  "discount": 0.15,
-                  "rating": 4.7,
-                  "image": "path/to/fitnes-legnuvanje.jpg",
-                  "stock": 60,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "sportski-obleki-product-2",
-                  "name": "Спортска тренинг маица",
-                  "price": 35,
-                  "brand": "ActiveWear",
-                  "discount": 0,
-                  "rating": 4.6,
-                  "image": "path/to/sportska-trening-maica.jpg",
-                  "stock": 75,
-                  "markets": ["Market2", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Сина",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "subcategory-ekstremni-sportovi",
-          "name": "Екстремни Спортови",
-          "subcategories": [
-            {
-              "id": "ekstremni-sportovi-1",
-              "name": "Скејтбординг",
-              "products": [
-                {
-                  "id": "skejtbording-product-1",
-                  "name": "Скејтборд",
-                  "price": 150,
-                  "brand": "Екстрем Бренд",
-                  "discount": 0,
-                  "rating": 4.7,
-                  "image": "path/to/skejtbord.jpg",
-                  "stock": 35,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црна",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "skejtbording-product-2",
-                  "name": "Скејтборд Шлем",
-                  "price": 50,
-                  "brand": "Безбедносен Бренд",
-                  "discount": 0.1,
-                  "rating": 4.5,
-                  "image": "path/to/skejtbord-shlem.jpg",
-                  "stock": 25,
-                  "markets": ["Market2", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвен",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "ekstremni-sportovi-2",
-              "name": "Mountain Велосипеди",
-              "products": [
-                {
-                  "id": "mountain-velosipedi-product-1",
-                  "name": "Горски Велосипед",
-                  "price": 500,
-                  "brand": "ExtremeCycles",
-                  "discount": 0.05,
-                  "rating": 4.9,
-                  "image": "path/to/gorski-velosiped.jpg",
-                  "stock": 15,
-                  "markets": ["Market1", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црно",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "mountain-velosipedi-product-2",
-                  "name": "Заштитна Кацига за Велосипед",
-                  "price": 40,
-                  "brand": "SafeGear",
-                  "discount": 0,
-                  "rating": 4.7,
-                  "image": "path/to/kaciga-za-velosiped.jpg",
-                  "stock": 30,
-                  "markets": ["Market2", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Бела",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "ekstremni-sportovi-3",
-              "name": "Сноубординг",
-              "products": [
-                {
-                  "id": "snoubording-product-1",
-                  "name": "Сноуборд",
-                  "price": 250,
-                  "brand": "SnowX",
-                  "discount": 0,
-                  "rating": 4.8,
-                  "image": "path/to/snoubord.jpg",
-                  "stock": 20,
-                  "markets": ["Market1", "Market2"],
-                  "description": "Опис на производот овде.",
-                  "color": "Сив",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                },
-                {
-                  "id": "snoubording-product-2",
-                  "name": "Сноуборд Чевли",
-                  "price": 120,
-                  "brand": "SnowBoots",
-                  "discount": 0.1,
-                  "rating": 4.6,
-                  "image": "path/to/snoubord-chevli.jpg",
-                  "stock": 25,
-                  "markets": ["Market2", "Market3"],
-                  "description": "Опис на производот овде.",
-                  "color": "Црвени",
-                  "images": [
-                    "images/productpageItem/image1.png",
-                    "images/productpageItem/image2.png",
-                    "images/productpageItem/image3.png",
-                    "images/productpageItem/image4.png",
-                    "images/productpageItem/image5.png"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   },
+
+  "products": [
+    {
+      "id": "product-1",
+      "name": "Блендер",
+      "type": "Смути Блендер",
+      "price": 500,
+      "brand": "Beko",
+      "discount": "20%",
+      "rating": 4.5,
+      "image": "/assets/images/blenderi/blender2.png",
+      "stock": 7,
+      "markets": ["Neptun", "TehnoMarket"],
+      "description": "Description of the product goes here.",
+      "color": "Black",
+      "images": [
+        "/assets/images/productpageItem/image1.png",
+        "/assets/images/productpageItem/image2.png",
+        "/assets/images/productpageItem/image3.png",
+        "/assets/images/productpageItem/image4.png",
+        "/assets/images/productpageItem/image5.png"
+      ]
+    },
+    {
+      "id": "product-2",
+      "name": "Блендер",
+      "type": "Блендер со сад",
+      "price": 510,
+      "brand": "Nutribullet",
+      "discount": "10%",
+      "rating": 5,
+      "image": "/assets/images/blenderi/blender3.png",
+      "stock": 4,
+      "markets": ["Neptun", "TehnoMarket"],
+      "description": "Description of the product goes here.",
+      "color": "Gray",
+      "images": [
+        "/assets/images/productpageItem/image1.png",
+        "/assets/images/productpageItem/image2.png",
+        "/assets/images/productpageItem/image3.png",
+        "/assets/images/productpageItem/image4.png",
+        "/assets/images/productpageItem/image5.png"
+      ]
+    },
+    {
+      "id": "product-3",
+      "name": "Блендер",
+      "type": "Стоечки Блендер",
+      "price": 520,
+      "brand": "Nutribullet",
+      "discount": "20%",
+      "rating": 4,
+      "image": "/assets/images/blenderi/blender4.png",
+      "stock": 3,
+      "markets": ["Neptun"],
+      "description": "Description of the product goes here.",
+      "color": "Red",
+      "images": [
+        "/assets/images/productpageItem/image1.png",
+        "/assets/images/productpageItem/image2.png",
+        "/assets/images/productpageItem/image3.png",
+        "/assets/images/productpageItem/image4.png",
+        "/assets/images/productpageItem/image5.png"
+      ]
+    },
+    {
+      "id": "product-4",
+      "name": "Блендер",
+      "type": "Рачен Блендер",
+      "price": 530,
+      "brand": "Beko",
+      "discount": "5%",
+      "rating": 4.3,
+      "image": "/assets/images/blenderi/blender5.png",
+      "stock": 1,
+      "markets": ["TehnoMarket"],
+      "description": "Description of the product goes here.",
+      "color": "Green",
+      "images": [
+        "/assets/images/productpageItem/image1.png",
+        "/assets/images/productpageItem/image2.png",
+        "/assets/images/productpageItem/image3.png",
+        "/assets/images/productpageItem/image4.png",
+        "/assets/images/productpageItem/image5.png"
+      ]
+    },
+    {
+      "id": "product-5",
+      "name": "Блендер",
+      "type": "Смути Блендер",
+      "price": 540,
+      "brand": "Philiphs",
+      "discount": "30%",
+      "rating": 1.5,
+      "image": "/assets/images/blenderi/blender6.png",
+      "stock": 8,
+      "markets": ["TehnoMarket"],
+      "description": "Description of the product goes here.",
+      "color": "Blue",
+      "images": [
+        "/assets/images/productpageItem/image1.png",
+        "/assets/images/productpageItem/image2.png",
+        "/assets/images/productpageItem/image3.png",
+        "/assets/images/productpageItem/image4.png",
+        "/assets/images/productpageItem/image5.png"
+      ]
+    },
+    {
+      "id": "product-6",
+      "name": "Блендер",
+      "type": "Стоечки Блендер",
+      "price": 550,
+      "brand": "Nutrifit",
+      "discount": "50%",
+      "rating": 2.4,
+      "image": "/assets/images/blenderi/blender7.png",
+      "stock": 5,
+      "markets": ["Neptun", "TehnoMarket"],
+      "description": "Description of the product goes here.",
+      "color": "Olive",
+      "images": [
+        "/assets/images/productpageItem/image1.png",
+        "/assets/images/productpageItem/image2.png",
+        "/assets/images/productpageItem/image3.png",
+        "/assets/images/productpageItem/image4.png",
+        "/assets/images/productpageItem/image5.png"
+      ]
+    },
+    {
+      "id": "product-7",
+      "name": "Блендер",
+      "type": "Стоечки Блендер",
+      "price": 560,
+      "brand": "Nutrifit",
+      "discount": "5%",
+      "rating": 0.5,
+      "image": "/assets/images/blenderi/blender8.png",
+      "stock": 10,
+      "markets": ["Neptun"],
+      "description": "Description of the product goes here.",
+      "color": "Black",
+      "images": [
+        "/assets/images/productpageItem/image1.png",
+        "/assets/images/productpageItem/image2.png",
+        "/assets/images/productpageItem/image3.png",
+        "/assets/images/productpageItem/image4.png",
+        "/assets/images/productpageItem/image5.png"
+      ]
+    },
+    {
+      "id": "product-8",
+      "name": "Блендер",
+      "type": "Рачен Блендер",
+      "price": 570,
+      "brand": "Philiphs",
+      "discount": "10%",
+      "rating": 2.1,
+      "image": "/assets/images/blenderi/blender9.png",
+      "stock": 10,
+      "markets": ["Neptun"],
+      "description": "Description of the product goes here.",
+      "color": "Black",
+      "images": [
+        "/assets/images/productpageItem/image1.png",
+        "/assets/images/productpageItem/image2.png",
+        "/assets/images/productpageItem/image3.png",
+        "/assets/images/productpageItem/image4.png",
+        "/assets/images/productpageItem/image5.png"
+      ]
+    },
+    {
+      "id": "product-9",
+      "name": "Блендер",
+      "type": "Блендер со сад",
+      "price": 580,
+      "brand": "Beko",
+      "discount": "10%",
+      "rating": 3.6,
+      "image": "/assets/images/blenderi/blender10.png",
+      "stock": 10,
+      "markets": ["TehnoMarket"],
+      "description": "Description of the product goes here.",
+      "color": "Gray",
+      "images": [
+        "/assets/images/productpageItem/image1.png",
+        "/assets/images/productpageItem/image2.png",
+        "/assets/images/productpageItem/image3.png",
+        "/assets/images/productpageItem/image4.png",
+        "/assets/images/productpageItem/image5.png"
+      ]
+    },
+    {
+      "id": "product-10",
+      "name": "Блендер",
+      "type": "Блендер со сад",
+      "price": 590,
+      "brand": "Beko",
+      "discount": "20%",
+      "rating": 1.7,
+      "image": "/assets/images/blenderi/blender12.png",
+      "stock": 10,
+      "markets": ["TehnoMarket"],
+      "description": "Description of the product goes here.",
+      "color": "Blue",
+      "images": [
+        "/assets/images/productpageItem/image1.png",
+        "/assets/images/productpageItem/image2.png",
+        "/assets/images/productpageItem/image3.png",
+        "/assets/images/productpageItem/image4.png",
+        "/assets/images/productpageItem/image5.png"
+      ]
+    }
+  ],
 
   "about_page": {
     "decs_1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, in officia? Maxime cupiditate laudantium at?",
@@ -3896,14 +1941,6 @@
 
   "users": [
     { "id": 1, "username": "john_doe", "password": "john" },
-    { "id": 2, "username": "emma_smith", "password": "emma" },
-    { "id": 3, "username": "michael_johnson", "password": "michael" },
-    { "id": 4, "username": "sophia_williams", "password": "sophia" },
-    { "id": 5, "username": "william_brown", "password": "william" },
-    { "id": 6, "username": "olivia_jones", "password": "olivia" },
-    { "id": 7, "username": "james_davis", "password": "james" },
-    { "id": 8, "username": "ava_taylor", "password": "ava" },
-    { "id": 9, "username": "alexander_miller", "password": "alexander" },
-    { "id": 10, "username": "isabella_anderson", "password": "isabella" }
+    { "id": 2, "username": "emma_smith", "password": "emma" }
   ]
 }
