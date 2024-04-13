@@ -1,0 +1,19 @@
+.ad{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    border-bottom-left-radius: 10px ;
+    border-top-left-radius: 10px;
+    background-color: #ffa500;
+    display: flex;
+    padding: 10px;
+}
+.spanAd{
+    color: #FFF;
+    font-weight: bold;
+}
+.linkmarket{
+    font-size: 8px;
+    text-decoration: none;
+}
