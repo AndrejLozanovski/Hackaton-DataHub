@@ -1,0 +1,36 @@
+.small{
+    font-size: smaller;
+    color: lightgray;
+}
+.span-price{
+    color: #ffa500;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.content-card{
+    border-radius: 8px;
+}
+.para{
+    margin-right: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+.img-content{
+    background-image: url('../../../public/assets/images/blenderi/blenderreklama.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100px;
+}
+.logoImg{
+    max-width: 100px;
+}
+.bg-light-orange{
+    background-color: #FFF0D4;
+}
+
+.linkmarkets{
+    font-size: 8px;
+    text-decoration: none;
+}
