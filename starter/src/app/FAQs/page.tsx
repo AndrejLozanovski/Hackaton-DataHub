@@ -1,3 +1,5 @@
+import MailButton from "@/components/MailButton";
+
 interface FAQsInt {
     title: string;
     question1: string;
@@ -26,6 +28,7 @@ async function fetchData(): Promise<FAQsInt> {
 
 export default async function FAQsPage() {
     const data = await fetchData()
+
     return <div className="container-fluid">
         <div className="row bg-lightgray border-bottom border-radius shadow">
             <div className="col-12 py-3">
@@ -55,7 +58,7 @@ export default async function FAQsPage() {
         <div className="row py-3 my-3">
             <div className="col-12 text-center">
                 <h5>{data.sub_title}</h5>
-                <button className="btn btn-light border" type="submit">Испратете ни е-пошта</button>
+                {<MailButton/>}
             </div>
         </div>
     </div>
