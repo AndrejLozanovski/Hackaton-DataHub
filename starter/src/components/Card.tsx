@@ -23,6 +23,7 @@ export const ProductCard = () => {
   const [product, setProduct] = useState([]);
   const [favorites, setFavorites] = useState<Product[]>([]);
   const [notificationForPrice, setNotificationForPrice] = useState<Product[]>([]);
+  const [invertedIcons, setInvertedIcons] = useState<{ [key: string]: boolean }>({});
 
   useEffect(() => {
     const favoriteProduct = JSON.parse(localStorage.getItem("favoriteProduct") || "[]");
@@ -32,6 +33,11 @@ export const ProductCard = () => {
   useEffect(() => {
     const notificationProduct = JSON.parse(localStorage.getItem("notificationProduct") || "[]");
     setNotificationForPrice(notificationProduct);
+  }, []);
+
+  useEffect(() => {
+    const invertedIconsData = JSON.parse(localStorage.getItem("invertedIcons") || "{}");
+    setInvertedIcons(invertedIconsData);
   }, []);
 
   useEffect(() => {
@@ -61,6 +67,12 @@ export const ProductCard = () => {
   };
 
   const toggleNotification = (product: Product) => {
+    const productId = product.id;
+    const isInverted = invertedIcons[productId] || false;
+    const updatedInvertedIcons = { ...invertedIcons, [productId]: !isInverted };
+
+    setInvertedIcons(updatedInvertedIcons);
+
     const updatedNotifications = notificationForPrice.some(
       (notification) => notification.id === product.id
     )
@@ -68,6 +80,9 @@ export const ProductCard = () => {
       : [...notificationForPrice, product];
 
     setNotificationForPrice(updatedNotifications);
+
+    localStorage.setItem("invertedIcons", JSON.stringify(updatedInvertedIcons));
+
     localStorage.setItem("notificationProduct", JSON.stringify(updatedNotifications));
   };
 
@@ -81,7 +96,11 @@ export const ProductCard = () => {
             <div className="notification-favorite-icons d-flex align-items-center justify-content-between p-3">
               <img
                 src="/assets/images/icons/notification.png"
-                style={{ width: "35px", cursor: "pointer" }}
+                style={{
+                  width: "35px",
+                  cursor: "pointer",
+                  filter: invertedIcons[el.id] ? "invert(20%)" : "none",
+                }}
                 alt="notification icon"
                 onClick={() => toggleNotification(el)}
               />
