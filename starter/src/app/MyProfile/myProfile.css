@@ -26,13 +26,15 @@
 
 .rightContent {
   width: 100%;
-
-  margin-top: 20px;
   font-size: 1.25rem;
   background: #f6f6f6;
   border-radius: 10px 0 0 10px;
   padding: 20px;
+  margin-top: 20px;
   color: black;
+  overflow-y: auto;
+  height: calc(100vh - 40px);
+  z-index: -20;
 }
 
 nav {
@@ -93,6 +95,12 @@ nav {
   border-radius: 0 var(--border-radius) 0 0;
   bottom: calc(var(--border-radius) * -1);
   box-shadow: 5px -5px 0 5px #f6f6f6;
+}
+
+.favContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media (min-width: 768px) {

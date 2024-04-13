@@ -11,10 +11,10 @@ interface ProductsInterface {
   rating: number;
   image: string;
   stock: number;
-  markets: string;
+  markets: [];
   description: string;
   color: string;
-  images: string;
+  images: [];
 }
 
 export const NotificationCard = () => {
@@ -41,10 +41,7 @@ export const NotificationCard = () => {
   }, []);
 
   return (
-    <div className="mx-5">
-      <h1 className="fw-bolder">Известување за цени</h1>
-
-      <h4>Продукти</h4>
+    <>
       {products.map((product: ProductsInterface) => (
         <>
           <div className="card mb-3">
@@ -91,6 +88,6 @@ export const NotificationCard = () => {
           </div>
         </>
       ))}
-    </div>
+    </>
   );
 };
