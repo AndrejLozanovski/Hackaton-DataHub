@@ -16,7 +16,7 @@
   object-fit: cover;
 }
 
-i {
+.profileIcons {
   font-size: 30px;
   height: 30px;
   width: 30px;
@@ -26,13 +26,12 @@ i {
 
 .rightContent {
   width: 100%;
-  height: 766px;
+
   margin-top: 20px;
   font-size: 1.25rem;
   background: #f6f6f6;
   border-radius: 10px 0 0 10px;
-  padding-inline-start: 23rem;
-  padding-block-start: 5rem;
+  padding: 20px;
   color: black;
 }
 
@@ -100,32 +99,57 @@ nav {
   .profileIcon {
     width: 150px;
     height: 150px;
-    margin: 20px 0 20px 70px; /* Original margin */
+    margin: 20px 0 20px 70px;
   }
 
   i {
-    font-size: 30px; /* Original icon size */
+    font-size: 30px;
     height: 30px;
     width: 30px;
   }
 
   .rightContent {
     height: 766px;
-    font-size: 1.25rem; /* Original font size */
+    font-size: 1.25rem;
     padding-inline-start: 23rem;
     padding-block-start: 5rem;
   }
 
   nav {
-    position: absolute; /* Restore absolute positioning */
+    position: absolute;
     top: 14%;
     left: 0;
-    height: 803px; /* Fixed height */
+    height: 789px;
     width: auto;
   }
 
   .nav-list li {
-    padding: 1rem 2rem; /* Original padding */
+    padding: 1rem 2rem;
     font-size: 1rem;
   }
+}
+
+/* NotificationCard */
+
+.customFont {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.notificationImg {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.priceFont {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.bottomRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 }

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import "./myProfile.css";
+import { NotificationCard } from "@/components/NotificationCard";
 
 export default function MyProfile() {
   const [activeMenu, setActiveMenu] = useState<string>("favorites");
@@ -20,28 +21,28 @@ export default function MyProfile() {
             className={activeMenu === "favorites" ? "active" : ""}
             onClick={() => setActiveMenu("favorites")}
           >
-            <i className="fa-solid fa-heart"></i>
+            <i className="profileIcons fa-solid fa-heart"></i>
             Омилено
           </li>
           <li
             className={activeMenu === "notifications" ? "active" : ""}
             onClick={() => setActiveMenu("notifications")}
           >
-            <i className="fa-solid fa-bell"></i>
+            <i className="profileIcons fa-solid fa-bell"></i>
             Известување на цена
           </li>
           <li
             className={activeMenu === "settings" ? "active" : ""}
             onClick={() => setActiveMenu("settings")}
           >
-            <i className="fa-solid fa-gear"></i>
+            <i className="profileIcons fa-solid fa-gear"></i>
             Поставувања
           </li>
           <li
             className={activeMenu === "logout" ? "active" : ""}
             onClick={() => setActiveMenu("logout")}
           >
-            <i className="fa-solid fa-right-from-bracket"></i>
+            <i className="profileIcons fa-solid fa-right-from-bracket"></i>
             Одјави се
           </li>
         </ul>
@@ -50,9 +51,7 @@ export default function MyProfile() {
         {activeMenu === "favorites" && (
           <div>Display Favorites Content Here</div>
         )}
-        {activeMenu === "notifications" && (
-          <div>Notifications Settings Here</div>
-        )}
+        {activeMenu === "notifications" && <NotificationCard />}
         {activeMenu === "settings" && <div>Profile Settings Here</div>}
         {activeMenu === "logout" && <div>You are now logged out.</div>}
       </div>
