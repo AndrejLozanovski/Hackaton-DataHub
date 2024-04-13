@@ -1,0 +1,57 @@
+.regular-price {
+  position: relative;
+  font-size: 13px;
+}
+
+.regular-price::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #ffa500;
+  transform: rotate(-13deg);
+  transform-origin: left bottom;
+}
+
+.image-discount {
+  position: relative;
+  overflow: hidden;
+}
+
+.discount {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  bottom: -10px;
+  right: -7px;
+  overflow: hidden;
+  border-radius: 50%;
+  color: white;
+  z-index: 1;
+}
+
+.card {
+  transition: border 0.4s ease-in-out !important;
+  border: 2px solid transparent !important;
+}
+
+.card:hover {
+  border-color: #ffa500 !important;
+}
+
+.card:hover .image,
+.card:hover .discount {
+  transform: scale(1.4);
+  transition: transform 0.4s ease-in-out;
+}
+
+.image,
+.discount {
+  transition: transform 0.4s ease-in-out;
+}
