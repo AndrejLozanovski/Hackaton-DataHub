@@ -1,0 +1,17 @@
+.modal {
+  display: block !important;
+  --bs-modal-width: 70% !important;
+}
+
+.favoriteImage:hover {
+  content: url("/assets/images/categoriesIcons/FavoriteHover.png");
+}
+
+.notification-price-container {
+  position: relative;
+}
+
+.notification-close-icon {
+  position: absolute;
+  right: 10px;
+}
