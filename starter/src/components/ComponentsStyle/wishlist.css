@@ -1,6 +1,6 @@
 .modal {
   display: block !important;
-  --bs-modal-width: 70% !important;
+  --bs-modal-width: 80% !important;
 }
 
 .favoriteImage:hover {
