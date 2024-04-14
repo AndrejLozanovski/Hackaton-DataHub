@@ -34,8 +34,9 @@ export const WishListPopUp = () => {
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (modalRef.current && !modalRef.current.contains(event.target as Node)) {
-        toggleModal();
+        setShowModal(false);
       }
+      console.log("click");
     };
 
     document.addEventListener("mousedown", handleClickOutside);
@@ -43,7 +44,7 @@ export const WishListPopUp = () => {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [modalRef]);
+  }, []);
 
   useEffect(() => {
     const favoriteProductData = JSON.parse(localStorage.getItem("favoriteProduct") || "[]");
@@ -80,20 +81,10 @@ export const WishListPopUp = () => {
         <i className="fa-solid fa-chevron-up "></i>
       </button>
       {showModal && (
-        <div className="modal " tabIndex={-1} role="dialog">
-          <div className="modal-dialog " role="document">
-            <div onClick={toggleModal} className="modal-content " style={{ overflowY: "auto" }}>
-              <div className="modal-header bg-lightgray d-flex justify-content-end border-0">
-                <button
-                  type="button"
-                  className="close text-right btn"
-                  onClick={toggleModal}
-                  aria-label="Close"
-                >
-                  x
-                </button>
-              </div>
-              <div className="modal-body bg-lightgray px-4">
+        <div className="modal" tabIndex={-1} role="dialog">
+          <div className="modal-dialog" role="document">
+            <div className="modal-content rounded-4" ref={modalRef} style={{ overflowY: "auto" }}>
+              <div className="modal-body bg-lightgray p-5">
                 {activeMenu === "favorites" && (
                   <>
                     <h2 className="fw-bold">Омилено</h2>
@@ -251,7 +242,7 @@ export const WishListPopUp = () => {
                   </>
                 )}
               </div>
-              <div className="modalFooter border-0  bg-lightgray px-4 py-4">
+              <div className="modalFooter border-0  bg-lightgray p-5 pb-5">
                 <div className="navigation bg-white shadow rounded-4 d-flex justify-content-around py-4">
                   <div
                     className="favorite d-flex flex-column align-items-center text-center justify-content-center"
