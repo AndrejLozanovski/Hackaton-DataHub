@@ -1,0 +1,15 @@
+.card {
+  /* border-radius: 30px; */
+  height: 500px;
+  background-image: url(../img/Rectangle\ 11.png);
+  color: white;
+  padding-left: 50px;
+  align-self: center;
+}
+.random-product {
+  width: 50%;
+  padding-top: 90px;
+}
+.container-banner {
+  margin: 20px;
+}
