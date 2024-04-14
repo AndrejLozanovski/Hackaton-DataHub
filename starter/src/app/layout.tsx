@@ -3,9 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import Carousel from "@/components/ProductsSlider";
 import Chart from "@/components/Chart";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +25,6 @@ export default function RootLayout({
         <script src="https://kit.fontawesome.com/8b7ad911c7.js"></script>
         <Header />
         {children}
-         
         <Footer />
       </body>
     </html>

@@ -1,0 +1,48 @@
+.footer ul {
+  list-style-type: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.subscription-section {
+  border-bottom: 1px solid #cacaca;
+}
+
+.social-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+p {
+  color: white;
+}
+
+.input {
+  position: relative;
+}
+
+.sendEmail {
+  position: "absolute";
+  /* top: 50%;
+  left: 100px; */
+  transform: translate(20%, -85%);
+  /* transform: translateX(20%); */
+}
+
+.submit {
+  padding-right: 50px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 8%;
+  max-width: 40px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

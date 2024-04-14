@@ -20,6 +20,10 @@
   overflow: hidden;
 }
 
+.font-small {
+  font-size: 15px;
+}
+
 .discount {
   position: absolute;
   width: 55px;

@@ -19,7 +19,7 @@ interface Product {
   images: [];
 }
 
-export const ProductCard = () => {
+export const ProductDetailsCard = () => {
   const [product, setProduct] = useState([]);
   const [favorites, setFavorites] = useState<Product[]>([]);
   const [notificationForPrice, setNotificationForPrice] = useState<Product[]>([]);
@@ -128,16 +128,18 @@ export const ProductCard = () => {
 
               <div className="card-body">
                 <p className="card-title fw-bold m-0">{el.name}</p>
+                <p className="product-desc color-grey font-small m-0 mt-1">{el.description}</p>
                 <span className="regular-price ">0000 ден.</span>
-                <div className="price-rating  d-flex justify-content-between ">
+                <div className="price-rating d-flex justify-content-between ">
                   <p className="card-text fw-bold text-orange m-0 mb-2 text-dark">
                     {el.price} ден.
                   </p>
                   <p className="text-dark fw-bold">
-                    <i className="fa-solid fa-star font-small color-orange me-1"></i>
+                    <i className="fa-solid fa-star font-small color-orange"></i>
                     {el.rating}
                   </p>
                 </div>
+                <small className="color-grey">{el.stock} Продавници</small>
               </div>
             </Link>
           </div>
