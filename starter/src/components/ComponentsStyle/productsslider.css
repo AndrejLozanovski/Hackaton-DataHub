@@ -1,0 +1,30 @@
+.card-container {
+  display: flex;
+  overflow: hidden;
+  animation-play-state: paused;
+  position: relative;
+}
+.cards {
+  display: inline-flex;
+  white-space: nowrap;
+}
+.slide {
+  animation: slide 5s linear infinite;
+  animation-play-state: running;
+}
+.slide.paused {
+  animation-play-state: paused;
+}
+.right-arrow-carousel {
+  position: absolute;
+  top: 200px;
+  right: 10px;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

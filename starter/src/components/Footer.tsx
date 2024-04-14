@@ -4,14 +4,20 @@ const Footer = () => {
   return (
     <footer className="footer bg-footer">
       <div className="subscription-section">
-        <h4 className="text-light text-center">Претплати се на нашиот билтен</h4>
+        <h4 className="text-light text-center">
+          Претплати се на нашиот билтен
+        </h4>
         <p className="text-light text-center">
           Биди во тек со сите новости и случувања секаде и во секое време.
         </p>
 
         <form className="form-footer text-center">
           <div className="input">
-            <input className="email" type="email" placeholder="Испрати е-пошта" />
+            <input
+              className="email"
+              type="email"
+              placeholder="Испрати е-пошта"
+            />
             <button className="submit" type="submit">
               -
             </button>
@@ -21,12 +27,17 @@ const Footer = () => {
       <div className="explanation-section">
         <div className="row">
           <div className="col-4 text-center position-center">
-            <img src="/assets/images/logo/datahubLogo.png" alt="DataHub" className="text-light " />
+            <img
+              src="/assets/images/logo/datahubLogo.png"
+              alt="DataHub"
+              className="text-light "
+            />
           </div>
           <div className="col-8">
             <p className="text-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet
-              consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
+              ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum
+              dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
         </div>
