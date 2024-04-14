@@ -1,0 +1,11 @@
+.btns {
+  /* padding-left: 50px; */
+  margin: 50px;
+}
+.btn-cat {
+  width: 267px;
+  border: 2px solid #ffa500;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
