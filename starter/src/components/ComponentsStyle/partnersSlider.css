@@ -5,6 +5,11 @@
   display: flex;
   overflow: hidden;
   animation-play-state: paused;
+  text-align: center;
+}
+
+.card-container img {
+  max-width: 150px;
 }
 .cards {
   display: inline-flex;
@@ -30,6 +35,7 @@
 .right-arrow-carousel img {
   width: 70%;
 }
+
 .right-arrow-carousel:hover {
   opacity: 1;
 }
