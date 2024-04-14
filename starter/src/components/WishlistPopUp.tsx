@@ -72,14 +72,17 @@ export const WishListPopUp = () => {
 
   return (
     <>
-      <button
-        onClick={toggleModal}
-        className="btn fw-bold bg-white shadow d-flex justify-content-between px-4  align-items-center"
-        style={{ width: "300px" }}
-      >
-        Омилено
-        <i className="fa-solid fa-chevron-up "></i>
-      </button>
+      <div className="d-flex justify-content-end me-3">
+        <button
+          onClick={toggleModal}
+          className="btn fw-bold bg-white shadow d-flex justify-content-between px-4 mb-5   align-items-center"
+          style={{ width: "300px" }}
+        >
+          Омилено
+          <i className="fa-solid fa-chevron-up "></i>
+        </button>
+      </div>
+
       {showModal && (
         <div className="modal" tabIndex={-1} role="dialog">
           <div className="modal-dialog" role="document">
@@ -123,12 +126,12 @@ export const WishListPopUp = () => {
 
                                 <div className="card-body">
                                   <p className="card-title fw-bold m-0">{el.name}</p>
-                                  <span className="regular-price ">0000 ден.</span>
-                                  <div className="price-rating d-flex justify-content-between ">
-                                    <p className="card-text fw-bold text-orange m-0 mb-2">
+                                  <span className="regular-price text-dark">0000 ден.</span>
+                                  <div className="price-rating d-flex justify-content-between text-dark ">
+                                    <p className="card-text fw-bold text-orange text-dark m-0 mb-2">
                                       {el.price} ден.
                                     </p>
-                                    <p>
+                                    <p className="text-dark">
                                       <i className="fa-solid fa-star color-orange me-1"></i>
                                       {el.rating}
                                     </p>
@@ -155,7 +158,9 @@ export const WishListPopUp = () => {
                         </div>
                         <div className="notification-content d-flex flex-column justify-content-between pt-4">
                           <div className="notification-desc">
-                            <p className="m-0 text-uppercase fw-bold">Nutribullet pro990</p>
+                            <p className="m-0 text-uppercase fw-bold text-dark">
+                              Nutribullet pro990
+                            </p>
                             <small className="m-0">Екстракторна хранливи состојки</small>
                             <div className="rating">
                               <i className="fa-solid fa-star  color-orange me-1"></i>
@@ -163,30 +168,30 @@ export const WishListPopUp = () => {
                             </div>
                           </div>
                           <div className="price mb-3">
-                            <p className="fw-bold">0000 ден.</p>
+                            <p className="fw-bold text-dark">0000 ден.</p>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="navigation w-50 mx-auto rounded-4 d-flex justify-content-around py-4">
                       <div className="favorite d-flex flex-column align-items-center text-center justify-content-center">
-                        <p className="m-0 mb-3">Lorem ipsum dolor</p>
-                        <p className="fw-bold">0000 ден.</p>
+                        <p className="m-0 mb-3 text-dark">Lorem ipsum dolor</p>
+                        <p className="fw-bold text-dark">0000 ден.</p>
                       </div>
                       <div className="notification d-flex flex-column align-items-center text-center justify-content-center">
-                        <p className="m-0 mb-3">Lorem ipsum dolor</p>
-                        <p className="fw-bold">0000 ден.</p>
+                        <p className="m-0 mb-3 text-dark">Lorem ipsum dolor</p>
+                        <p className="fw-bold text-dark">0000 ден.</p>
                       </div>
                       <div className="last-seen d-flex flex-column align-items-center text-center justify-content-center">
-                        <p className="m-0 mb-3">Lorem ipsum dolor</p>
-                        <p className="fw-bold">0000 ден.</p>
+                        <p className="m-0 mb-3 text-dark">Lorem ipsum dolor</p>
+                        <p className="fw-bold text-dark">0000 ден.</p>
                       </div>
                     </div>
                   </>
                 )}
                 {activeMenu === "lastSeen" && (
                   <>
-                    <h2 className="fw-bold">Последно посетени производи</h2>
+                    <h2 className="fw-bold ">Последно посетени производи</h2>
                     <div className="row pb-4">
                       {favorites.map((el: Product, index: number) => (
                         <div className="col-2 me-4" key={index}>
@@ -261,7 +266,7 @@ export const WishListPopUp = () => {
                       style={{ width: "45px" }}
                       alt=""
                     />
-                    <p className="m-0 mt-3 fw-bold">Омилено</p>
+                    <p className="m-0 mt-3 fw-bold text-dark">Омилено</p>
                   </div>
                   <div
                     className="notification d-flex flex-column align-items-center text-center justify-content-center"
@@ -279,7 +284,7 @@ export const WishListPopUp = () => {
                       style={{ width: "45px" }}
                       alt=""
                     />
-                    <p className="m-0 mt-3 fw-bold">Известувања за цени</p>
+                    <p className="m-0 mt-3 fw-bold text-dark">Известувања за цени</p>
                   </div>
                   <div
                     className="last-seen d-flex flex-column align-items-center text-center justify-content-center"
@@ -297,7 +302,7 @@ export const WishListPopUp = () => {
                       style={{ width: "45px" }}
                       alt=""
                     />
-                    <p className="m-0 mt-3 fw-bold">Последно видено</p>
+                    <p className="m-0 mt-3 fw-bold text-dark">Последно видено</p>
                   </div>
                 </div>
               </div>

@@ -1,0 +1,19 @@
+.container {
+  width: 40%;
+  border: none;
+}
+.container-card {
+  width: 40%;
+}
+.place-img {
+  border-radius: 50px;
+  border: 1px solid black;
+  width: 50px;
+}
+.card-header {
+  border: none;
+}
+.comment {
+  font-size: 16px;
+  text-align: left;
+}

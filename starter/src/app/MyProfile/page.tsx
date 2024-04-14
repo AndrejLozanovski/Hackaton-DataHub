@@ -57,9 +57,7 @@ export default function MyProfile() {
   };
 
   useEffect(() => {
-    const storedProductData = JSON.parse(
-      localStorage.getItem("favoriteProduct") || "[]"
-    );
+    const storedProductData = JSON.parse(localStorage.getItem("favoriteProduct") || "[]");
     console.log("Loaded products:", storedProductData);
     setStoredProducts(storedProductData);
   }, []);
@@ -84,11 +82,7 @@ export default function MyProfile() {
         <h3 className="text-center">Мој профил</h3>
         <ul className="nav-list">
           <div className="profileIcon" onClick={triggerFileSelectPopup}>
-            <img
-              src={profileImage}
-              alt="Profile icon"
-              style={{ cursor: "pointer" }}
-            />
+            <img src={profileImage} alt="Profile icon" style={{ cursor: "pointer" }} />
             <input
               type="file"
               accept="image/*"
@@ -134,12 +128,9 @@ export default function MyProfile() {
             <h4>Зачувани продукти</h4>
             <div className="row">
               {storedProducts.map((el: ProductsInterface) => (
-                <div className="col-2 me-2">
+                <div className="col-2 m-5">
                   <div className="product-card " key={el.id}>
-                    <div
-                      className="card rounded-4 shadow mt-4 "
-                      style={{ width: "270px" }}
-                    >
+                    <div className="card rounded-4 shadow mt-4 " style={{ width: "270px" }}>
                       <div className="notification-favorite-icons d-flex align-items-center justify-content-between p-3">
                         <img
                           src="/assets/images/icons/notification.png"
@@ -164,19 +155,17 @@ export default function MyProfile() {
                           alt="product image"
                           style={{ width: "100%", height: "auto" }}
                         />
-                        <span className="discount rounded-circle bg-discount">
-                          10%
-                        </span>
+                        <span className="discount rounded-circle bg-discount">10%</span>
                       </div>
 
                       <div className="card-body">
-                        <p className="card-title fw-bold m-0">{el.name}</p>
+                        <p className="card-title fw-bold m-0 text-dark">{el.name}</p>
                         <span className="regular-price ">0000 ден.</span>
                         <div className="price-rating d-flex justify-content-between ">
-                          <p className="card-text fw-bold text-orange m-0 mb-2">
+                          <p className="card-text fw-bold text-orange m-0 mb-2 text-dark">
                             {el.price} ден.
                           </p>
-                          <p>
+                          <p className="text-dark">
                             <i className="fa-solid fa-star color-orange me-1"></i>
                             {el.rating}
                           </p>

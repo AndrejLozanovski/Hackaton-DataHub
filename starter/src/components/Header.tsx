@@ -20,13 +20,13 @@ const Header = () => {
     setShowModal(true);
   };
   return (
-    <header className="navbar navbar-expand-lg navbar-light bg-light">
+    <header className="navbar  navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <img src="/assets/images/logo/datahubLogo.png" alt="DataHub" />
         </a>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <p className="toggle-button" onClick={toggleDropdown}>
+          <p className="toggle-button text-dark" onClick={toggleDropdown}>
             Сите категории
           </p>
 
@@ -37,39 +37,34 @@ const Header = () => {
           />
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/Catalogs">
                 Каталози
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/BestDeals">
                 Најдобри зделки
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/About">
                 За нас
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/FAQs">
                 FAQs
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="MyProfile">
                 Мој профил
               </a>
             </li>
           </ul>
           <div className="d-flex">
-            <div className="search-bar me-2">
-              <input
-                className="form-control"
-                type="text"
-                placeholder="Пребарај..."
-              />
-              {/* <button className="btn btn-primary">Пребарај</button> */}
+            <div className="search-box d-flex">
+              <input type="search" className="custom-search" placeholder="Пребарувај" />
             </div>
 
             <div className="cta">
@@ -81,9 +76,7 @@ const Header = () => {
         </div>
       </div>
       {showModal && <div className="backdrop" onClick={handleCloseModal}></div>}
-      {showModal && (
-        <SignUpModal showModal={showModal} onClose={handleCloseModal} />
-      )}
+      {showModal && <SignUpModal showModal={showModal} onClose={handleCloseModal} />}
     </header>
   );
 };

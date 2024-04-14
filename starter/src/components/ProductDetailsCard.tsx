@@ -91,7 +91,7 @@ export const ProductDetailsCard = () => {
       const isFavorite = favorites.some((fav) => fav.id === el.id);
 
       return (
-        <div className="product-card" key={key}>
+        <div className="product-card me-3" key={key}>
           <div className="card rounded-4 shadow mt-4" style={{ width: "270px" }}>
             <div className="notification-favorite-icons d-flex align-items-center justify-content-between p-3">
               <img

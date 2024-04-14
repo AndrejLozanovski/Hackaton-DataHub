@@ -21,25 +21,25 @@ const ProductCarousel: React.FC<CarouselProps> = ({ title }) => {
   };
 
   return (
-    <div className="carousel-container p-4 bg-lightgray rounded-3">
+    <div className="carousel-container  p-4 bg-lightgray rounded-3">
       <div className="title-and-link d-flex align-items-center justify-content-between">
         <div className="title">
           <h2 className="fw-bold">{title}</h2>
         </div>
 
         <div className="vidi-povekje ">
-          <a href="" className="text-decoration-none text-body">
+          <a href="/ProductListing" className="text-decoration-none text-body">
             Види повеќе
             <i className="ms-3 fa-solid fa-angle-right fa-sm"></i>
           </a>
         </div>
       </div>
 
-      <div className="cards">
-        <div className={`card-container ${isHovering ? "slide" : "slide paused"}`}>
+      <div className="cards ">
+        <div className={`card-container ${isHovering ? "slide" : "slide paused"} me-3`}>
           <ProductCard />
         </div>
-        <div className={`card-container ${isHovering ? "slide" : "slide paused"}`}>
+        <div className={`card-container ${isHovering ? "slide" : "slide paused"} `}>
           <ProductCard />
         </div>
       </div>

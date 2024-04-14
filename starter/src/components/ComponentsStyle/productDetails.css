@@ -1,0 +1,83 @@
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.product-details {
+  width: 90%;
+}
+
+.container {
+  display: flex;
+}
+
+.small-img {
+  margin-right: 10px;
+  height: 88px;
+  cursor: pointer;
+}
+
+.nutri-img {
+  flex: 1;
+}
+
+.nutri {
+  height: 370px;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.link {
+  padding: 10px;
+}
+.oceni,
+.sporedi {
+  border-right: 1px solid #ffa500;
+  padding-right: 10px;
+}
+.description-text {
+  padding-top: 50px;
+  text-align: center;
+  color: black;
+  text-align: start;
+}
+.btns {
+  margin: 50px;
+}
+.btn-cat {
+  width: 267px;
+  border: 2px solid #ffa500;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.squere {
+  width: 24px;
+  height: 24px;
+}
+.squere.black {
+  background-color: black;
+  cursor: pointer;
+}
+.squere.grey {
+  background-color: #9a9a9a;
+  cursor: pointer;
+}
+.squere.red {
+  background-color: #d73f3b;
+  cursor: pointer;
+}
+.squere.blue {
+  background-color: #273ca9;
+  cursor: pointer;
+}
+.squere.green {
+  background-color: #43a047;
+  cursor: pointer;
+}
+.squere.l-green {
+  background-color: #b9bc32;
+  cursor: pointer;
+}

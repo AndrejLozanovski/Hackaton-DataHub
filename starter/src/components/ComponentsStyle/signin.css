@@ -82,3 +82,7 @@
 .popup-icon {
   margin-right: 10px;
 }
+
+.navbar {
+  border-bottom: 1px solid #ffa500;
+}

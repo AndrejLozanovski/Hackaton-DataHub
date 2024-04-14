@@ -1,7 +1,7 @@
-import "./filtercomponent.css";
+import "./ComponentsStyle/filtercomponent.css";
 const FilterComponent = () => {
   return (
-    <div className="filter-container">
+    <div className="filter-container ">
       <h2>Филтри</h2>
       <div className="filter-section">
         <h3>Попуст</h3>

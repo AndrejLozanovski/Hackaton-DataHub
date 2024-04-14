@@ -1,14 +1,18 @@
-.card {
+.banner-card {
   /* border-radius: 30px; */
   height: 500px;
-  background-image: url(../img/Rectangle\ 11.png);
+  /* background-image: url(../img/Rectangle\ 11.png); */
   color: white;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   align-self: center;
+  position: relative;
 }
 .random-product {
   width: 50%;
-  padding-top: 90px;
+  top: 10%;
+  left: 10%;
+  position: absolute;
+  z-index: 999999;
 }
 .container-banner {
   margin: 20px;
