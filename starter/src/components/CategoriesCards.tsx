@@ -1,58 +1,80 @@
 "use client";
-
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../components/ComponentsStyle/categoriesCards.css";
 import Link from "next/link";
 
-interface SubSubcategory {
+interface SubSubCategory {
   id: string;
   name: string;
 }
 
-interface Subcategory {
+interface SubCategory {
   id: string;
   name: string;
-  image?: string;
-  subcategories: SubSubcategory[];
+  image: string;
+  subsubcategories: SubSubCategory[];
 }
 
 interface Category {
   id: string;
   name: string;
-  subcategories: Subcategory[];
+  subcategories: SubCategory[];
 }
 
-interface CategoryCardProps {
-  category: Category;
-}
+export const CategoriesCards = () => {
+  const [categories, setCategories] = useState<Category[]>([]);
 
-export const CategoriesCards = ({ category }: CategoryCardProps) => {
-  return (
-    <div>
-      <h1 className="fw-bolder">{category.name}</h1>
-      {category.subcategories.map((subcat) => (
-        <div key={subcat.id} className="card m-3">
-          <div className="bgCard">
-            <img
-              className="text-center"
-              src={`/assets/${subcat.image}`}
-              alt={subcat.name}
-            />
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("http://localhost:5002/categories");
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const data = await response.json();
+        console.log(data);
+
+        if (data.bela_tehnika) {
+          setCategories([data.bela_tehnika]);
+        } else {
+          console.log("Categories not found in the expected format:", data);
+          setCategories([]);
+        }
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const renderCategoryCards = () => {
+    return categories.map((category: Category) => (
+      <div key={category.id}>
+        {category.subcategories.map((subcat: SubCategory, idx: number) => (
+          <div key={idx} className="customCard  m-3">
+            <div className="bgCard">
+              <img src={`/assets/${subcat.image}`} alt={subcat.name} />
+            </div>
+            <div className="card-body">
+              <h3>{subcat.name}</h3>
+              <>
+                <Link href="/ProductListing"> Двокрилни ладилници</Link>
+                <br />
+                <Link href="/ProductListing"> Двокрилни ладилници</Link>
+                <br />
+                <Link href="/ProductListing"> Двокрилни ладилници</Link>
+              </>
+              <br />
+              <Link href="/ProductListing" className="fw-bold mt-2 ">
+                Show all (00)
+              </Link>
+            </div>
           </div>
-          <h3 className="mt-3">{subcat.name}</h3>
-          {subcat.subcategories.map((subsubcat) => (
-            <>
-              <Link href="/ProductListing"> {subsubcat.name}</Link>
-              <Link href="/ProductListing"> {subsubcat.name}</Link>
-              <Link href="/ProductListing"> {subsubcat.name}</Link>
-            </>
-          ))}
+        ))}
+      </div>
+    ));
+  };
 
-          <Link href="/ProductListing" className="fw-bold mt-2 ">
-            Show all (00)
-          </Link>
-        </div>
-      ))}
-    </div>
-  );
+  return <div>{renderCategoryCards()}</div>;
 };

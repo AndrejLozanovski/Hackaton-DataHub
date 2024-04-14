@@ -29,7 +29,6 @@ export default function MyProfile() {
 
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  // Load the profile image from local storage when the component mounts
   useEffect(() => {
     const storedImage = localStorage.getItem("profileImage");
     if (storedImage) {
@@ -44,7 +43,7 @@ export default function MyProfile() {
       reader.onloadend = () => {
         if (typeof reader.result === "string") {
           setProfileImage(reader.result);
-          localStorage.setItem("profileImage", reader.result); // Save the image to local storage
+          localStorage.setItem("profileImage", reader.result);
         }
       };
       reader.readAsDataURL(file);

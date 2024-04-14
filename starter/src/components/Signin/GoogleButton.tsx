@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 
 const GoogleButton = () => {
   const handleGoogleLogin = () => {
@@ -8,7 +8,7 @@ const GoogleButton = () => {
 
   return (
     <button onClick={handleGoogleLogin} className="google-button">
-      <FontAwesomeIcon className="popup-icon" icon={faGoogle} />
+      {/* <FontAwesomeIcon className="popup-icon" icon={faGoogle} /> */}
       Continue with Google
     </button>
   );

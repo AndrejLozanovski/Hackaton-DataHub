@@ -1,0 +1,70 @@
+.categoriesDropdown {
+  position: relative;
+}
+
+.categoriesDropdown p {
+  cursor: pointer;
+}
+
+.toggle-button {
+  margin: 0;
+  cursor: pointer;
+}
+
+.customDropdown {
+  display: block;
+  position: fixed;
+  top: 86px;
+  left: 0;
+  right: 0;
+  background: white;
+  border-top: 2px solid #ffa500;
+  z-index: 1000;
+  height: calc(100vh - 86px);
+  overflow-y: auto;
+  opacity: 0;
+  transform: scale(1, 0);
+  transition: transform 1s ease-out, opacity 0.3s ease-out;
+  transform-origin: top;
+}
+
+.customDropdown.show {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.customDropdown p {
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.customDropdown p:hover {
+  background-color: #f8f8f8;
+}
+
+.leftSide {
+  background: white;
+  position: absolute;
+  top: 14%;
+  bottom: 0;
+  left: 0;
+  border-right: 2px solid #ffa500;
+  padding: 0 40px;
+}
+
+.leftSide p {
+  cursor: pointer;
+}
+
+.rightSide {
+  position: absolute;
+  top: 11%;
+  bottom: 0;
+  left: 16%;
+  right: 0;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
