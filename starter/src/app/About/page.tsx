@@ -1,5 +1,6 @@
 import Link from "next/link";
 import './about.css';
+import Breadcrumbs from "@/components/Breadcrumbs";
 interface About {
     decs_1: string;
     desc_2: string;
