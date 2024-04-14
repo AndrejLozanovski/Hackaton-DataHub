@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 const FacebookButton = () => {
   const handleFacebookLogin = () => {
@@ -9,7 +9,7 @@ const FacebookButton = () => {
 
   return (
     <button onClick={handleFacebookLogin} className="facebook-button">
-      <FontAwesomeIcon className="popup-icon" icon={faFacebook} />
+      {/* <FontAwesomeIcon className="popup-icon" icon={faFacebook} /> */}
       Continue with Facebook
     </button>
   );

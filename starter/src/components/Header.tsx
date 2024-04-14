@@ -3,9 +3,14 @@ import React from "react";
 import { useState } from "react";
 import SignUpModal from "./Signin/SignIn-SignUp";
 import "./ComponentsStyle/signin.css";
+import { CategoriesDropdown } from "./Categories";
 
 const Header = () => {
   const [showModal, setShowModal] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [activeMenu, setActiveMenu] = useState("obuvki");
+
+  const toggleDropdown = () => setIsOpen(!isOpen);
 
   const handleCloseModal = () => {
     setShowModal(false);
@@ -21,19 +26,15 @@ const Header = () => {
           <img src="/assets/images/logo/datahubLogo.png" alt="DataHub" />
         </a>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <div className="categories">
-            {/* <select title="form-select" className="form-select">
-              <option>Сите категории</option>
-              <option>Обувки</option>
-              <option>Бела техника</option>
-              <option>Игри и конзоли</option>
-              <option>Облека</option>
-              <option>За деца</option>
-              <option>Фотографија</option>
-              <option>Спорт</option>
-              <option>Мобилни телефони</option>
-            </select> */}
-          </div>
+          <p className="toggle-button" onClick={toggleDropdown}>
+            Сите категории
+          </p>
+
+          <CategoriesDropdown
+            isOpen={isOpen}
+            setActiveMenu={setActiveMenu}
+            activeMenu={activeMenu}
+          />
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
               <a className="nav-link" href="#">

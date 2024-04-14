@@ -1,21 +1,25 @@
-.card {
+.customCard {
+  width: 300px;
   border: none;
-  width: 350px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
 }
 
-.card a {
+.customCard a {
   text-decoration: none;
   color: black;
 }
 
-.card .bgCard {
+.customCard .bgCard {
+  align-items: center;
   border-radius: 15px;
   background-color: #f6f6f6;
 }
 
-.card .bgCard img {
+.customCard .bgCard img {
   padding: 10px 0;
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }

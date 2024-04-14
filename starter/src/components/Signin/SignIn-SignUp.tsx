@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import FacebookButton from "./FacebookButton";
 import GoogleButton from "./GoogleButton";
 import PasswordToggleButton from "./VisibilityButton";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import "../ComponentsStyle/signin.css";
 
 interface SignUpModalProps {
@@ -129,11 +129,11 @@ const SignUpModal: React.FC<SignUpModalProps> = ({ showModal, onClose }) => {
             autoPlay
             loop
           ></video>
-          <FontAwesomeIcon
+          {/* <FontAwesomeIcon
             className="popup-close"
             icon={faTimes}
             onClick={onClose}
-          />
+          /> */}
         </div>
       </div>
     </div>

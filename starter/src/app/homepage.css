@@ -1,0 +1,82 @@
+.bannerImage {
+    background-image: url("../../public/assets/images/herosection/herosection.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 60vh;
+    border-radius: 30px;
+  }
+  
+  .inner {
+    position: absolute;
+    top: 30%;
+    left: 9%;
+  }
+  
+  .inner h1 {
+    font-size: 120px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin: 0;
+  }
+  
+  .inner h1::first-letter {
+    color: #ffa500;
+  }
+  
+  .inner p {
+    font-size: 35px;
+  }
+  
+  .innerImg {
+    position: absolute;
+    top: 20%;
+    right: 12.5%;
+  }
+  
+  .innerImg img {
+    width: 570px;
+    height: 360px;
+    object-fit: cover;
+  }
+  
+  .favoriteImage {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+  }
+  .favorite p {
+    font-weight: 600;
+  }
+  
+  .custom-search {
+    width: 100%;
+    padding: 15px 40px;
+    border: 2px solid #ffa500;
+    border-radius: 50px;
+    background-color: #f8f8f8;
+    outline: none;
+    margin-left: 80px;
+  }
+  
+  .custom-search::placeholder {
+    color: #999;
+  }
+  
+  .custom-search::-webkit-search-decoration,
+  .custom-search::-webkit-search-cancel-button,
+  .custom-search::-webkit-search-results-button,
+  .custom-search::-webkit-search-results-decoration {
+    display: none;
+  }
+  
+  .custom-search:focus {
+    border-color: #ffa500;
+  }
+  .search-box i {
+    color: #999;
+    position: absolute;
+    top: 87%;
+    left: 90%;
+  }
+  
