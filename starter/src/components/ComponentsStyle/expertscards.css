@@ -1,0 +1,22 @@
+.container {
+  width: 40%;
+  border: none;
+}
+.title-section {
+  margin-right: 10px;
+}
+.more {
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+}
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 16px;
+  text-align: left;
+}
