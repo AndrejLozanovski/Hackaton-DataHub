@@ -1,8 +1,10 @@
+.carousel-container {
+  position: relative;
+}
 .card-container {
   display: flex;
   overflow: hidden;
   animation-play-state: paused;
-  position: relative;
 }
 .cards {
   display: inline-flex;
